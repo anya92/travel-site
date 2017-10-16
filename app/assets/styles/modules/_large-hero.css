@@ -7,6 +7,7 @@
   }
 
   &__text-content {
+    padding-top: 88px;
     position: absolute;
     /* center horizontally */
     top: 50%;
@@ -15,6 +16,10 @@
     /* center vertically */
     width: 100%;
     text-align: center;
+
+    @mixin atMedium {
+      padding-top: 60px;
+    }
   }
 
   &__title {
